@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    color: black;
+    text-align: center;
+}
+
+header {
+    background-color: yellow;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: yellow;
+    margin-top: 20px;
+}
