@@ -5,7 +5,7 @@
 
     @auth
         <h1>{{ Auth::user() -> name }}</h1>
-        <a href="{{ route('logout') }}">LOGOUT</a>
+        <a class="btn btn-primary" href="{{ route('logout') }}">LOGOUT</a>
         @else
         <h1>Registrati o effettua il log-in se vuoi entrare nel mio sito</h1>
     @endauth
@@ -25,7 +25,7 @@
         <label for="password_confirmation">Password confirm</label>
         <input type="password" name="password_confirmation"> <br>
         <br>
-        <input type="submit" value="REGISTER">
+        <input class="btn btn-primary" type="submit" value="REGISTER">
 
     </form>
 
@@ -42,7 +42,7 @@
         <label for="password">Password</label>
         <input type="password" name="password"> <br>
         <br>
-        <input type="submit" value="LOGIN">
+        <input class="btn btn-primary" type="submit" value="LOGIN">
 
     </form>
     
